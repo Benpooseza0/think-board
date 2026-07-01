@@ -1,0 +1,20 @@
+{
+  "name": "mern-thinkboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm runstart --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benpooseza0/think-board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benpooseza0/think-board/issues"
+  },
+  "homepage": "https://github.com/Benpooseza0/think-board#readme"
+}
